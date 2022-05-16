@@ -2,14 +2,10 @@ package qwerty;
 public class HomeTests {
             public Object myVar;
 
-
-
             public static String getType(Object myVar) {return ((Object) myVar).getClass().getSimpleName();
             }
 
-
             public static void main(String[] args) {
-
 
                 byte aByte = 55;
                 short aShort = 59;
